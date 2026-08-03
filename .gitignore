@@ -6,6 +6,7 @@
 # Obsidian vault e agente
 AGENTS.md
 /ObsidianCeliAPP
+contextoCHAT/
 
 # -------------------------------------------------------------------------
 # Node / Next.js
@@ -19,7 +20,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-package-lock.json
 yarn.lock
 pnpm-lock.yaml
 

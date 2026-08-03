@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+:root {
+  --background: #FDF8F6;
+  --foreground: #1F1A1A;
+  --wine: #7B2D3B;
+  --wine-light: #9E4A5B;
+  --wine-dark: #5C1F2A;
+  --cream: #FDF8F6;
+  --rose: #F5E9E9;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-wine: var(--wine);
+  --color-wine-light: var(--wine-light);
+  --color-wine-dark: var(--wine-dark);
+  --color-cream: var(--cream);
+  --color-rose: var(--rose);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-lora);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-geist-sans), Arial, Helvetica, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-lora), Georgia, serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
